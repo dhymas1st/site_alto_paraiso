@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-center {
+    align-items: center;
+    height: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column-reverse {
+    flex-direction: row-reverse;
+}
+
+header {
+    background-image: linear-gradient(to top, transparent, rgba(255, 166, 0, 0.5)), url(img/capa-chapada-dos-veadeiros.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header h1, header h2 {
+    color: #fff;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header p {
+    color: #fff;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 1em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#wrap-banner {
+    text-align: center;
+    padding: 20% 5%;
+}
+
+#wrap-banner h2 {
+    margin-bottom: 60px;
+    font-size: 4em;
+}
+
+#wrap-banner p {
+    margin-bottom: 60px;
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+#wrap-banner a {
+    padding: 20px;
+    background-color: chocolate;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#wrap-banner a:hover {
+    background-color: #f68f45;
+}
+
+
+
+
+section {
+    margin-top: 6em;
+}
+
+
+section img {
+    width: 49%;
+    height: 380px;
+}
+
+section h2 {
+    font-size: 2.4em;
+    margin-bottom: 0.6em;
+}
+
+section p {
+    line-height: 1.6em;
+}
+
+section a {
+    background-color: #0f3d0f;
+    color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+section a:hover {
+    background-color: #166216;
+}
+
+.text-sections {
+    width: 49%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #0f3d0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#newsletter {
+    background: url(img/capa-chapada-dos-veadeiros.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding: 120px;
+}
+
+.text-form {
+    width: 65%;
+}
+
+.text-form h3 {
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 1.4em;
+}
+
+.text-form p {
+    color: #fff;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    padding: 0 16px;
+}
+
+form input {
+    padding: 8px;
+    margin: 8px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: none;
+}
+form input:focus {
+    outline: none;
+}
+
+form button {
+    padding: 8px;
+    background-color: #f68f45;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
